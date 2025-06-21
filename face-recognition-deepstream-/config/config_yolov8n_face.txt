@@ -2,7 +2,8 @@
 gpu-id=0
 #0=RGB, 1=BGR
 model-color-format=0
-model-engine-file=../models/yolov8n_face/yolov8n-face_bs16.trt
+# model-engine-file=../models/yolov8n_face/yolov8n-face_bs16.trt
+model-engine-file=/app/engine/primary/yolov8n-face_b1_fp16.engine
 labelfile-path=../models/yolov8n_face/labels.txt
 
 process-mode=1
