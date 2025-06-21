@@ -1,0 +1,9 @@
+<!--
+ * @Author: zhouyuchong
+ * @Date: 2024-08-20 13:48:45
+ * @Description: 
+ * @LastEditors: zhouyuchong
+ * @LastEditTime: 2024-08-20 14:04:26
+-->
+1. modify cuda-version and deepstream-version in Makefile
+2. make
