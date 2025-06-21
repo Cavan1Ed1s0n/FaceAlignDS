@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  face-test-service-align:
+    container_name: face-test-service-align
+    build:
+      context: .
+    image: face-test-service:0.0.0
+    runtime: nvidia
+    restart: always
+    volumes:
+      - .:/app
+    # entrypoint: [ "python3", "server.py" ]
+
+    entrypoint: [ "python3" ]
+    tty: True
+    network_mode: host 
+    
